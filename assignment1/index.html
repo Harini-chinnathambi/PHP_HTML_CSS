@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Details Form</title>
+</head>
+
+<body>
+
+<table width="100%" height="100%">
+<tr>
+<td align="center" valign="middle">
+
+<form action="process.php" method="post">
+
+<table border="1" width="500" cellpadding="10" cellspacing="0">
+
+<tr>
+<th colspan="2">
+<h2>Student Details Form</h2>
+</th>
+</tr>
+
+<tr>
+<td>Student Name</td>
+<td><input type="text" name="studentName" required></td>
+</tr>
+
+<tr>
+<td>Register Number</td>
+<td><input type="text" name="registerNumber" required></td>
+</tr>
+
+<tr>
+<td>Department</td>
+<td>
+<select name="department" required>
+<option value="">Select</option>
+<option>B.Sc Computer Science</option>
+<option>BCA</option>
+<option>B.Com</option>
+<option>BBA</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>Year</td>
+<td>
+<select name="year" required>
+<option value="">Select</option>
+<option>I Year</option>
+<option>II Year</option>
+<option>III Year</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>Email ID</td>
+<td><input type="email" name="email" required></td>
+</tr>
+
+<tr>
+<td>Mobile Number</td>
+<td><input type="text" name="mobile" required></td>
+</tr>
+
+<tr>
+<td colspan="2" align="center">
+<input type="submit" value="Submit">
+<input type="reset" value="Clear">
+</td>
+</tr>
+
+</table>
+
+</form>
+
+</td>
+</tr>
+</table>
+
+</body>
+</html>
