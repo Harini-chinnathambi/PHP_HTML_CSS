@@ -1,0 +1,56 @@
+body
+{
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container
+{
+    width: 800px;
+    margin: 30px auto;
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+h1
+{
+    text-align: center;
+    color: navy;
+}
+
+.section
+{
+    margin-top: 20px;
+}
+
+h2
+{
+    background-color: navy;
+    color: white;
+    padding: 8px;
+}
+
+table
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, td
+{
+    border: 1px solid black;
+}
+
+td
+{
+    padding: 10px;
+}
+
+@media screen and (max-width:768px)
+{
+    .container
+    {
+        width:95%;
+    }
+}

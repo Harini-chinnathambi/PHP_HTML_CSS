@@ -1,0 +1,68 @@
+body
+{
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.container
+{
+    width: 850px;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+h1
+{
+    text-align: center;
+    color: darkred;
+}
+
+.section
+{
+    margin-top: 25px;
+}
+
+h2
+{
+    background: darkred;
+    color: white;
+    padding: 8px;
+}
+
+table
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td
+{
+    border: 1px solid black;
+}
+
+th
+{
+    background: #ffe4c4;
+}
+
+th, td
+{
+    padding: 10px;
+    text-align: center;
+}
+
+p
+{
+    font-size: 17px;
+    margin: 8px;
+}
+
+@media screen and (max-width:768px)
+{
+    .container
+    {
+        width:95%;
+    }
+}
